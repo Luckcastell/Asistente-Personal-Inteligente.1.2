@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot con Archivos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Chat con Análisis de Archivos</h1>
+
+  <div>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Subir Archivo</button>
+  </div>
+
+  <div id="chatBox"></div>
+
+  <input type="text" id="userInput" placeholder="Escribe tu mensaje..." />
+  <button onclick="sendMessage()">Enviar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
